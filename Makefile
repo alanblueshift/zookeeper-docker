@@ -34,4 +34,3 @@ bump-version: tools
 
 update-cluster-config: tools
 	tools/update-version-file ${BRANCH} ${VERSION} ${FILE} ${REPO}
-

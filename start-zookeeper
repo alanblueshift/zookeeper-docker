@@ -13,7 +13,7 @@ then
   ZOOKEEPERS=$(echo $ZOOKEEPERS | sed 's/,/ /g')
 
   i=1
-  
+
   for zk in $ZOOKEEPERS
   do
 
@@ -35,4 +35,3 @@ then
 fi
 
 /usr/local/zookeeper/bin/zkServer.sh start-foreground
-
